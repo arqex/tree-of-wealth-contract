@@ -1,0 +1,50 @@
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='1000' height='1000'>
+  <defs>
+    <g id='a'>
+      <circle fill='#fd6' cx='25' cy='25' r='25'></circle>
+      <circle fill='#db5' cx='25' cy='25' r='19' />
+      <path d='m30 36-5-5-4 5c-2 2-8-5-7-6l5-5-5-4c-1-2 5-8 7-7l4 5 5-5c1-1 8 5 6 7l-5 4 5 5c2 1-5 8-6 6Z' fill='#fd6' />
+    </g>
+    <g id='d'>
+      <use xlink:href='#a' transform='translate(498 279)' />
+      <use xlink:href='#a' transform='translate(528 227)' />
+      <use xlink:href='#a' transform='translate(572 186)' />
+      <use xlink:href='#a' transform='translate(629 163)' />
+      <use xlink:href='#a' transform='translate(688 164)' />
+      <use xlink:href='#a' transform='translate(749 186)' />
+      <use xlink:href='#a' transform='translate(683 235)' />
+      <use xlink:href='#a' transform='translate(623 246)' />
+      <use xlink:href='#a' transform='translate(742 257)' />
+      <use xlink:href='#a' transform='translate(585 296)' />
+      <use xlink:href='#a' transform='translate(649 370)' />
+      <use xlink:href='#a' transform='translate(714 373)' />
+      <use xlink:href='#a' transform='translate(774 397)' />
+      <use xlink:href='#a' transform='translate(844 374)' />
+      <use xlink:href='#a' transform='translate(786 321)' />
+      <use xlink:href='#a' transform='translate(823 447)' />
+      <use xlink:href='#a' transform='translate(694 472)' />
+      <use xlink:href='#a' transform='translate(750 499)' />
+      <use xlink:href='#a' transform='translate(771 553)' />
+      <use xlink:href='#a' transform='translate(838 524)' />
+    </g>
+    <path d='M424 219c32 29 61 70 74 134v306c-15 0-41 9-45 17-46 84-62 161-62 264 0 19 1 41 3 60H275c5-130 47-239 130-328 8-9-15-9-28-7a786 786 0 0 0-34 7 518 518 0 0 0-219 328H3a519 519 0 0 1 246-300C157 735 64 798-6 865v-11l2-2a732 732 0 0 1 345-212c29-8 49-59 49-90 0-53-20-103-93-103-72 0-129 103-77 148-88-32-15-167 85-167 62 0 98 19 116 49v-1c3-16 3-33 3-39-1-44-27-88-84-93s-146 13-192 94c27-99 133-128 192-125 54 2 108 37 125 92-4-72-34-135-59-164-29-33-106-54-181 7 21-56 133-90 199-29Z' id='b' />
+    <radialGradient cx='50%' cy='26.4%' fx='50%' fy='26.4%' r='83.3%' gradientTransform='matrix(-.20706 .96593 -1.08184 -.36235 .9 -.1)' id='c'>
+      <stop stop-color='#FFF' offset='0%' />
+      <stop stop-color='#FFF' offset='60%' />
+      <stop stop-color='#023' offset='100%' />
+    </radialGradient>
+    <g id='f'>
+      <use xlink:href='#b' fill='url(#c)' />
+      <use xlink:href='#b' fill='url(#c)' transform='matrix(-1 0 0 1 995 0)' />
+      <use xlink:href='#d' transform='matrix(-1 0 0 1 1021 -25)' />
+      <use xlink:href='#d' transform='translate(-25 -25)' />
+    </g>
+    <path id='e' d='M0 150c57 0 52-30 86-65 35-34 64-33 64-85s-30-52-64-86c-34-33-32-64-86-64s-52 31-86 64c-33 34-64 27-64 86s31 52 64 86c34 34 29 64 86 64Z' />
+  </defs>
+  <path fill='#412' d='M0 0h1000v698H0z' />
+  <use xlink:href='#e' fill='#825' transform='rotate(-2 27339 -14967.1) scale(7)' />
+  <use xlink:href='#e' fill='#938' transform='rotate(-10 4026 -2573.2) scale(4)' />
+  <use xlink:href='#e' fill='#d8b' transform='rotate(10 -3082.2 3145.6) scale(2.2)' />
+  <circle fill='#023' cx='500' cy='1365' r='714' />
+  <use xlink:href='#f' />
+</svg>
