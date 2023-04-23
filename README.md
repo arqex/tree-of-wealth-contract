@@ -24,9 +24,9 @@ There is a `/scripts` folder with hardhat tasks to build and deploy different ve
 The contract was finally deployed by using [Remix IDE](https://remix.ethereum.org/), that made easier to validate the source code of the contract in Etherscan.
 
 ## Frontend
-To host The Tree of Wealth or withdraw the coins once you are a host it's always possible to call the functions directly at the [deployed contract](https://etherscan.io/address/0x27E1F5CcC4F184A2Ca55B12353c06dA9e1803621#code) at `0x27E1F5CcC4F184A2Ca55B12353c06dA9e1803621`.
+To host The Tree of Wealth or withdraw the coins once you are a host, it's always possible to call the functions directly at the [deployed contract](https://etherscan.io/address/0x27E1F5CcC4F184A2Ca55B12353c06dA9e1803621#code) at `0x27E1F5CcC4F184A2Ca55B12353c06dA9e1803621`.
 
-But to make things easier there is a frontend application that can be used to interact with the contract. It's a decentralized web application that can be served by anyone. [Here's the source code of the Tree of Wealth frontend](https://github.com/arqex/tree-of-wealth-app).
+But to make things easier, there is a frontend application that can be used to interact with the contract. It's a decentralized web application that can be served by anyone. [Here's the source code of the Tree of Wealth frontend](https://github.com/arqex/tree-of-wealth-app).
 
 The frontend application is a gate to the contract, it can be built locally or it might be deployed to  many different URLs to ensure that the access to operate with The Tree of Wealth is always available. 
 
@@ -36,6 +36,7 @@ The frontend application has been uploaded to Arweave's permaweb at [wXJX6_kvjI_
 
 Working mirrors of the frontend application are available at:
 * https://treeofwealth.deno.dev/
+* https://treeofwealth.netlify.app/
 * https://treeofwealth.arweave.dev/
 * https://treeofwealth.ar-io.dev/
 * https://treeofwealth.g8way.io/
