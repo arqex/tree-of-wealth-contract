@@ -1,6 +1,6 @@
 # Tree of Wealth Solidity Contract
 
-The Tree of Wealth is an NFT that always grows in price and distributes the earnings among anyone who have ever hold it. [Check this video for a better explanation on how the Tree of Wealth works](https://www.youtube.com/watch?v=Y8G5aGKc84I&ab_channel=AprendiendoWeb3). Here's the [video in Spanish](https://www.youtube.com/watch?v=1tS3PFlCGzc&list=PL6W-DT5AOQ0R2-yV3E9cViqZ5WHV4yDOA).
+The Tree of Wealth is an NFT that always grows in price and distributes the earnings among anyone who have ever hold it. [Check this video for a better explanation on how the Tree of Wealth works](https://www.youtube.com/watch?v=Y8G5aGKc84I&ab_channel=AprendiendoWeb3). Here's the [video in Spanish](https://www.youtube.com/watch?v=1tS3PFlCGzc&list=PL6W-DT5AOQ0R2-yV3E9cViqZ5WHV4yDOA). Like the video if you liked it!
 
 This behavior is possible thanks the smart contract in this repository. This is an immutable contract, it has no address with special privileges, so it will run like this forever. It's deployed on the Ethereum network at `0x27E1F5CcC4F184A2Ca55B12353c06dA9e1803621`. [Check the contract in Etherscan](https://etherscan.io/address/0x27E1F5CcC4F184A2Ca55B12353c06dA9e1803621#code).
 
@@ -23,6 +23,10 @@ There is a `/scripts` folder with hardhat tasks to build and deploy different ve
 
 The contract was finally deployed by using [Remix IDE](https://remix.ethereum.org/), that made easier to validate the source code of the contract in Etherscan.
 
+The Tree of Wealth is a [ERC-721](https://eips.ethereum.org/EIPS/eip-721) token, so it's compatible with any wallet that supports ERC-721 tokens. [OpenSea](https://opensea.io/) is a good place to check out the collection.
+
+The only token that doesn't follow the ERC-721 standard is the number 0: The Tree. It's not possible to transfer, or sell The Tree freely using any NFT marketplace.
+
 ## Frontend
 To host The Tree of Wealth or withdraw the coins once you are a host, it's always possible to call the functions directly at the [deployed contract](https://etherscan.io/address/0x27E1F5CcC4F184A2Ca55B12353c06dA9e1803621#code) at `0x27E1F5CcC4F184A2Ca55B12353c06dA9e1803621`.
 
@@ -37,6 +41,7 @@ The frontend application has been uploaded to Arweave's permaweb at [wXJX6_kvjI_
 Working mirrors of the frontend application are available at:
 * https://treeofwealth.deno.dev/
 * https://treeofwealth.netlify.app/
+* https://treeofwealth.vercel.app/
 * https://treeofwealth.arweave.dev/
 * https://treeofwealth.ar-io.dev/
 * https://treeofwealth.g8way.io/
